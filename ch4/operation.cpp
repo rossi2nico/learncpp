@@ -13,7 +13,7 @@ double getUserValue()
 char getOperator()
 {
 	char operation {' '};
-	bool valid = false;
+	bool valid { false };
 
 	while (!valid) {
 		std::cout << "Enter a valid operator (+, -, *, /): ";
